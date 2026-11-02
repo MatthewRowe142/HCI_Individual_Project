@@ -1,0 +1,83 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+/bower_components
+jspm_packages/
+.pnpm-store/
+
+# ==========================================
+# Production / Build Outputs
+# ==========================================
+# React / Vite / Next.js production builds
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+
+# Server binaries and releases
+bin/
+obj/
+build/Release
+
+# ==========================================
+# Logs and Debugging
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.secret
+
+# Allow an example template to be committed
+!.env.example
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# IDEs, Editors, and OS-specific files
+# ==========================================
+# Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Caches and Tooling Artifacts
+# ==========================================
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.turbo/
+.tsbuildinfo
+.node_repl_history
